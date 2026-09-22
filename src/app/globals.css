@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Backgrounds — parchment warm (clearly distinct from pure white cards) */
+  --bg: #f1ead4;          /* base body — warm parchment */
+  --surface: #ffffff;
+  --paper: #f4ecd8;       /* main sections bg — feuille creme */
+  --paper-warm: #e8dec5;  /* alt sections bg — vintage paper */
+
+  --border: #d8d2bf;      /* visible on parchment */
+  --text: #1c1917;
+  --muted: #78716c;
+  --accent: #0c4a6e;
+
+  /* KitPay tokens — editorial mauritanian palette */
+  --ink: #0a0a0a;
+  --ink-2: #1f1f1f;
+  --bronze: #7a5f3e;       /* darker = better contrast on parchment */
+  --bronze-light: #B89B7E;
+  --gold-soft: #ddc991;
+  --forest: #2D5F3F;
+  --forest-light: #4A7F5A;
+
+  /* Stone scale — recalibre pour ressortir sur le parchemin */
+  --stone-50: #f4ecd8;
+  --stone-100: #ebe2c9;
+  --stone-200: #d8d0b8;     /* card borders nettement visibles */
+  --stone-300: #b8b09a;
+  --stone-400: #8c8775;
+  --stone-500: #5e5b4f;
+  --stone-600: #45433a;
+  --stone-700: #2e2d27;
+
+  --font-display: "Bodoni Moda", "Didot", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "Consolas", monospace;
+}
+
+html, body { background: var(--bg); color: var(--text); }
+* { box-sizing: border-box; }
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============ KITPAY MARKETING UTILITIES ============ */
+.serif { font-family: var(--font-display); }
+.mono { font-family: var(--font-mono); }
+
+.kp-hero-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+.kp-hero-title em { font-style: italic; font-weight: 400; }
+
+.kp-section-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.kp-section-title em { font-style: italic; font-weight: 400; }
+
+.kp-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.kp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.85rem 1.7rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.22s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.kp-btn-primary { background: var(--ink); color: #fff; }
+.kp-btn-primary:hover { background: var(--bronze); }
+.kp-btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--stone-300);
+}
+.kp-btn-ghost:hover {
+  background: var(--ink); color: #fff; border-color: var(--ink);
+}
+.kp-btn-accent { background: var(--forest); color: #fff; }
+.kp-btn-accent:hover { background: var(--forest-light); }
+
+.kp-link {
+  position: relative;
+  color: var(--ink);
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.kp-link::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -3px;
+  height: 1px;
+  background: var(--bronze);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.kp-link:hover::after { transform: scaleX(1); }
+
+/* Pulse for live indicator */
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(0.85); }
+}
+.kp-pulse {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--forest-light);
+  animation: pulse-live 1.6s ease-in-out infinite;
+}
+
+/* Arrow flow pulse (method -> merchant) */
+@keyframes arrow-pulse {
+  0%, 100% { opacity: 0.55; transform: translateX(0); }
+  50% { opacity: 1; transform: translateX(2px); }
+}
+.kp-arrow-pulse {
+  animation: arrow-pulse 1.8s ease-in-out infinite;
+}
+
+/* Code block */
+.kp-code {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.65;
+  background: #0e0e0e;
+  color: #e8e6e0;
+  padding: 1.2rem 1.4rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  white-space: pre;
+}
+.kp-code .kw { color: #B89B7E; }
+.kp-code .str { color: #9CC58A; }
+.kp-code .com { color: #6E6A62; font-style: italic; }
+.kp-code .num { color: #C8C5BD; }
+
+/* No accent color outline on tab */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--bronze);
+  outline-offset: 2px;
+}
