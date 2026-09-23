@@ -32,10 +32,10 @@ export function KpHeader() {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-3.5 sm:py-4 flex items-center justify-between gap-4 sm:gap-6">
         <a href="/" className="flex items-center gap-2.5 flex-shrink-0">
           <span className="inline-flex w-7 h-7 items-center justify-center bg-[var(--ink)] text-white font-mono text-[12px] font-semibold rounded-sm">
-            K
+            M
           </span>
           <span className="serif text-[14px] sm:text-[15px] tracking-[0.18em] uppercase font-medium">
-            KitPay
+            Maurigame Pay
           </span>
         </a>
 
@@ -59,14 +59,14 @@ export function KpHeader() {
             className="kp-btn kp-btn-ghost"
             style={{ padding: "0.55rem 1.1rem", fontSize: "0.7rem" }}
           >
-            Admin
+            الإدارة
           </a>
           <a
             href="/sandbox"
             className="kp-btn kp-btn-primary"
             style={{ padding: "0.55rem 1.1rem", fontSize: "0.7rem" }}
           >
-            Tester en live
+            اختبار مباشر
           </a>
         </div>
 
