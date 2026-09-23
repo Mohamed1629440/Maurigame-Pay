@@ -125,7 +125,7 @@ export default function HomePage() {
         <div className="max-w-[1280px] mx-auto px-6 py-16 sm:py-20">
           <div className="text-center mb-12">
             <p className="kp-eyebrow text-[var(--bronze-light)] mb-4">
-              — Comment ça marche
+              — كيف تعمل المنصة ؟
             </p>
             <h2 className="kp-section-title">
               Un flux simple,
