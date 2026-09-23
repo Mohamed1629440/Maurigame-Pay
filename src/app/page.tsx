@@ -34,7 +34,7 @@ export default function HomePage() {
               <strong className="text-[var(--ink)]">
                 Bankily, Masrvi, Sedad, BIM et Click
               </strong>{" "}
-              en quelques heures. SDK, webhooks et dashboard de réconciliation
+              يتم الدفع بسهولة وسرعة، مع تأكيد فوري للعمليات.
               inclus. Pour les SaaS, e-commerce, services et abonnements.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
