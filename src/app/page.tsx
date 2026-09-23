@@ -35,7 +35,7 @@ export default function HomePage() {
                 Bankily, Masrvi, Sedad, BIM et Click
               </strong>{" "}
               يتم الدفع بسهولة وسرعة، مع تأكيد فوري للعمليات.
-              inclus. Pour les SaaS, e-commerce, services et abonnements.
+              يدعم المتاجر والخدمات والاشتراكات الرقمية بسهولة..
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <a href="/sandbox" className="kp-btn kp-btn-primary">
