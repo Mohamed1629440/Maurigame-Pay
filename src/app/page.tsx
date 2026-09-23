@@ -51,7 +51,7 @@ export default function HomePage() {
                 <span> المنصة تعمل الآن </span>
               </div>
               <div>5 طرق دفع مدعومة</div>
-              <div>Webhook &lt; 1 seconde</div>
+              <div>تأكيد الدفع خلال أقل من ثانية</div>
             </div>
           </div>
 
