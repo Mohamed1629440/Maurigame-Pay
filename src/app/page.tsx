@@ -50,7 +50,7 @@ export default function HomePage() {
                 <span className="kp-pulse"></span>
                 <span> المنصة تعمل الآن </span>
               </div>
-              <div>5 opérateurs supportés</div>
+              <div>5 طرق دفع مدعومة</div>
               <div>Webhook &lt; 1 seconde</div>
             </div>
           </div>
