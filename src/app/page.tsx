@@ -42,7 +42,7 @@ export default function HomePage() {
                 افتح تجربة الدفع →
               </a>
               <a href="#fonctionnement" className="kp-btn kp-btn-ghost">
-                Voir comment ça marche
+                كيف تعمل المنصة ؟
               </a>
             </div>
             <div className="flex flex-wrap items-center gap-x-7 gap-y-3 text-[13px] text-[var(--stone-600)]">
