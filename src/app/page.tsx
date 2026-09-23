@@ -128,7 +128,7 @@ export default function HomePage() {
               — كيف تعمل المنصة ؟
             </p>
             <h2 className="kp-section-title">
-              Un flux simple,
+              تدفق بسيط وسلس,
               <br />
               <em className="text-[var(--bronze-light)]">trois étapes.</em>
             </h2>
