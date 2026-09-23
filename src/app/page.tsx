@@ -97,7 +97,7 @@ export default function HomePage() {
         <div className="text-center mb-12">
           <p className="kp-eyebrow text-[var(--bronze)] mb-4">— — لماذا Maurigame Pay? </p>
           <h2 className="kp-section-title text-[var(--ink)]">
-            Trois choses qui changent tout.
+            ثلاثة أشياء تجعل Maurigame Pay مختلفًا.
           </h2>
         </div>
 
