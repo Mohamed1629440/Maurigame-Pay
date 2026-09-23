@@ -68,7 +68,7 @@ export default function HomePage() {
       >
         <div className="max-w-[1280px] mx-auto px-6 py-10">
           <p className="kp-eyebrow text-center text-[var(--stone-500)] mb-7">
-            — 5 opérateurs locaux, une intégration
+            — 5 طرق دفع محلية، بتكامل سهل وسريع
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 items-stretch">
             {OPERATORS.map((op) => (
