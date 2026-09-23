@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <span className="serif text-[15px] tracking-[0.18em] uppercase font-medium">Maurigame Pay</span>
                   </div>
                   <p className="text-sm text-[var(--stone-600)] max-w-md leading-relaxed">
-                    L'infrastructure de paiement souveraine de la Mauritanie. Une seule integration pour tous les operateurs locaux. Open source sous licence MIT.
+                    Maurigame Pay - منصة دفع إلكتروني في موريتانيا. حل موثوق لإدارة المدفوعات المحلية عبر Bankily وMasrvi وSedad وBIM وClick..
                   </p>
                 </div>
                 <div>
