@@ -4,9 +4,9 @@ import { KpHeader } from "@/components/KpHeader";
 import { RecoveryRedirect } from "@/components/RecoveryRedirect";
 
 export const metadata: Metadata = {
-  title: "KitPay - Infrastructure de paiement souveraine pour la Mauritanie",
+  title: "Maurigame Pay - منصة الدفع الإلكتروني في موريتانيا",
   description:
-    "Encaissez par Bankily, Masrvi, Sedad, BIM et Click via une seule API. SDK, webhooks et dashboard de reconciliation inclus."
+    "Maurigame Pay - منصة دفع إلكتروني في موريتانيا لدعم Bankily وMasrvi وSedad وBIM وClick."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
