@@ -3,7 +3,7 @@ import HeroDemo from "./_marketing/HeroDemo";
 export const metadata = {
   title: "Maurigame Pay — Encaissez Bankily, Masrvi, Sedad, BIM et Click",
   description:
-    "L'infrastructure de paiement souveraine de la Mauritanie. API REST, SDK, webhooks, dashboard. Intégration en quelques heures."
+    "Maurigame Pay - منصة دفع إلكتروني في موريتانيا لدعم Bankily وMasrvi وSedad وBIM وClick."
 };
 
 const OPERATORS = [
