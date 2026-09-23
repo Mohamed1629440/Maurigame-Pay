@@ -137,7 +137,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-px border-y border-white/10">
             <Step
               num="01"
-              title="Créez un intent"
+              title="أنشئ طلب دفع"
               text={
                 <>
                   Votre serveur appelle{" "}
