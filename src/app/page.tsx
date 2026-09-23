@@ -39,7 +39,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <a href="/sandbox" className="kp-btn kp-btn-primary">
-                Ouvrir la sandbox →
+                افتح تجربة الدفع →
               </a>
               <a href="#fonctionnement" className="kp-btn kp-btn-ghost">
                 Voir comment ça marche
