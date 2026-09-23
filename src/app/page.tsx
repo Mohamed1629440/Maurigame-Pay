@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="max-w-[1280px] mx-auto px-6 pt-12 sm:pt-20 pb-16 sm:pb-24 grid lg:grid-cols-[1.15fr_1fr] gap-10 sm:gap-12 items-center">
           <div>
             <div className="kp-eyebrow text-[var(--bronze)] mb-5">
-              — Infrastructure de paiement &middot; Mauritanie
+              — Maurigame Pay · منصة الدفع الإلكتروني في موريتانيا
             </div>
             <h1 className="kp-hero-title text-[var(--ink)] mb-6 text-4xl sm:text-5xl lg:text-6xl leading-[0.95]">
               Encaissez en MRU.
