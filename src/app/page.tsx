@@ -48,7 +48,7 @@ export default function HomePage() {
             <div className="flex flex-wrap items-center gap-x-7 gap-y-3 text-[13px] text-[var(--stone-600)]">
               <div className="flex items-center gap-2">
                 <span className="kp-pulse"></span>
-                <span>Production active</span>
+                <span> المنصة تعمل الآن </span>
               </div>
               <div>5 opérateurs supportés</div>
               <div>Webhook &lt; 1 seconde</div>
