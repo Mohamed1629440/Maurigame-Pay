@@ -4,7 +4,7 @@ import { createSupabaseServerClient } from '@/lib/supabase/server';
 import { SignOutButton } from './sign-out-button';
 import { DashboardNav } from './DashboardNav';
 
-export const metadata = { title: 'Dashboard · KitPay' };
+export const metadata = { title: 'Dashboard · Maurigame Pay' };
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
   const supabase = createSupabaseServerClient();
