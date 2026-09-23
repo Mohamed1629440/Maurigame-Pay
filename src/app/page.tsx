@@ -95,7 +95,7 @@ export default function HomePage() {
       {/* POURQUOI ============================================== */}
       <section className="max-w-[1280px] mx-auto px-6 py-16 sm:py-20">
         <div className="text-center mb-12">
-          <p className="kp-eyebrow text-[var(--bronze)] mb-4">— Pourquoi KitPay</p>
+          <p className="kp-eyebrow text-[var(--bronze)] mb-4">— — لماذا Maurigame Pay? </p>
           <h2 className="kp-section-title text-[var(--ink)]">
             Trois choses qui changent tout.
           </h2>
