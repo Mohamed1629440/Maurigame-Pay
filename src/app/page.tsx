@@ -30,7 +30,7 @@ export default function HomePage() {
               <em>دفع إلكتروني واحد وسهل.</em>
             </h1>
             <p className="text-base sm:text-lg text-[var(--stone-600)] leading-relaxed max-w-xl mb-7">
-              Maurigame Pay branche votre produit à{" "}
+              Maurigame Pay يربط متجرك بمنصة دفع إلكتروني سهلة وآمنة.
               <strong className="text-[var(--ink)]">
                 Bankily, Masrvi, Sedad, BIM et Click
               </strong>{" "}
