@@ -30,7 +30,7 @@ export default function HomePage() {
               <em>Une seule API.</em>
             </h1>
             <p className="text-base sm:text-lg text-[var(--stone-600)] leading-relaxed max-w-xl mb-7">
-              KitPay branche votre produit à{" "}
+              Maurigame Pay branche votre produit à{" "}
               <strong className="text-[var(--ink)]">
                 Bankily, Masrvi, Sedad, BIM et Click
               </strong>{" "}
