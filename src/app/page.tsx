@@ -1,7 +1,7 @@
 import HeroDemo from "./_marketing/HeroDemo";
 
 export const metadata = {
-  title: "KitPay — Encaissez Bankily, Masrvi & 4 autres opérateurs avec une seule API",
+  title: "Maurigame Pay — Encaissez Bankily, Masrvi, Sedad, BIM et Click",
   description:
     "L'infrastructure de paiement souveraine de la Mauritanie. API REST, SDK, webhooks, dashboard. Intégration en quelques heures."
 };
