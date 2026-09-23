@@ -27,7 +27,7 @@ export default function HomePage() {
             <h1 className="kp-hero-title text-[var(--ink)] mb-6 text-4xl sm:text-5xl lg:text-6xl leading-[0.95]">
               اشحن رصيدك بسهولة وسرعة.
               <br />
-              <em>Une seule API.</em>
+              <em>دفع إلكتروني واحد وسهل.</em>
             </h1>
             <p className="text-base sm:text-lg text-[var(--stone-600)] leading-relaxed max-w-xl mb-7">
               Maurigame Pay branche votre produit à{" "}
