@@ -25,7 +25,7 @@ export default function HomePage() {
               — Maurigame Pay · منصة الدفع الإلكتروني في موريتانيا
             </div>
             <h1 className="kp-hero-title text-[var(--ink)] mb-6 text-4xl sm:text-5xl lg:text-6xl leading-[0.95]">
-              Encaissez en MRU.
+              اشحن رصيدك بسهولة وسرعة.
               <br />
               <em>Une seule API.</em>
             </h1>
